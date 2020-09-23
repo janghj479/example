@@ -1,12 +1,11 @@
-aa=[]
-bb=[]
-value=0
+a,b,c,d = 0,0,0,0
+hap=0
 
-for i in range(0,200):
-    aa.append(value)
-    value =3*(i+1)
+a=int(input("1번째 숫자 : "))
+b=int(input("2번째 숫자 : "))
+c=int(input("3번째 숫자 : "))
+d=int(input("4번째 숫자 : "))
 
-for i in range(0,200):
-    bb.append(aa[199-i])
-    
-print("bb[0]에는 %d이, bb[99]에는 %d이 입력됩니다." %(bb[0],bb[199]))
+hap=a+b+c+d
+
+print("합계 ==> %d" %hap)
